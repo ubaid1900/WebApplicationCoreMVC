@@ -8,5 +8,7 @@
         public string? Email { get; set; }
 
         public bool IsResident { get; set; }
+
+        public Nullable<long> Phonenumber { get; set; }
     }
 }
