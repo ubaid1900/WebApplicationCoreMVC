@@ -15,5 +15,6 @@ namespace WebApplicationCoreMVC.Data
         }
 
         public DbSet<Person> People { get; set; } = default!;
+        public DbSet<Address> Addresses { get; set; } = default!;
     }
 }
